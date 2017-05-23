@@ -6,10 +6,10 @@ export class Recipe {
 	/** imagepath otan tha travame image apo ekso url*/
 	public imagePath: string;
 
-	/** gia na ginei to contact metaksi ton dio */
-	constructor(name: string; desc:string;image:string){
+	/** dn einai diathesimi ekso apo to model file ta parakato */
+	constructor(name: string, desc:string,image:string){
 		this.name = name;
 		this.description = desc;
-		this.image = imagePath;
+		this.imagePath = image;
 	}
 }
